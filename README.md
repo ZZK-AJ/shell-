@@ -1,2 +1,2 @@
 # shell-
-## this is my shell trainning
+## this is my shell 
