@@ -1,6 +1,6 @@
 #date: 2016-8-20
 #Author:zzk
-#FUNCTION:模仿系统的启动脚本，自己写的启动暂停重启ngnix的脚本，有屏幕输出
+#FUNCTION:模仿系统的启动脚本，写的启动暂停重启ngnix的脚本，使用functions，有屏幕输出
 #!/bin/sh
 . /etc/init.d/functions                #用于屏幕显示输出
 start_nginx=/application/nginx/sbin/nginx
