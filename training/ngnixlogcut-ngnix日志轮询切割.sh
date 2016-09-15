@@ -2,7 +2,7 @@
 #Author:zzk
 #Function:ngnix日志轮询切割
 #!/bin/sh
-Datef=`date +%Y%m%d`
+Datef=`date +%Y%m%d`  #执行date命令，+%Y%m%d 指定日志格式
 Basedir="/applicaton/ngnix"
 ngnixlogdir="/$Basedir/logs"
 logname="access_www"
