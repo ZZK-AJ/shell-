@@ -1,6 +1,7 @@
 #Date: 2016-9-13
 #Author:zzk
 #Function:Keepalived裂脑检测脚本，通过检测VIP是否存在
+#检测思路：在备节点上执行，如果可以ping通主节点并在备节点上有VIP就报警
 #!/bin/sh
 lb01_vip=10.0.0.12
 lb01_ip=10.0.0.7
