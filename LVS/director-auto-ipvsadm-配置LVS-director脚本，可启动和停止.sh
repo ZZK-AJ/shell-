@@ -1,4 +1,4 @@
-#Date: 2016-9-9
+#Date: 2016-8-21
 #Author:zzk
 #Function:一键配置LVS-director脚本，可启动和停止
 #Start LVS of Director server
